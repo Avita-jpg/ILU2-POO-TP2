@@ -23,7 +23,7 @@ public class ControlLibererEtal {
 	 * 		[4] : quantité de produit vendu
 	 */
 	public String[] libererEtal(String nomVendeur) {
-		//TODO a completer
+		// utiliser donnerEtat de village???? 
 		String[] donneesEtal = null;
 		return donneesEtal;
 	}
