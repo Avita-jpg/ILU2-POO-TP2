@@ -17,7 +17,6 @@ public class ControlTrouverEtalVendeur {
 		if (gaulois != null) {
 			etal = village.rechercherEtal(gaulois);
 		}
-		
 		return etal;
 	}
 }
