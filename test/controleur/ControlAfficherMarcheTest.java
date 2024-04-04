@@ -33,6 +33,7 @@ class ControlAfficherMarcheTest {
 		assertNotNull(etatMarche);
 		assertTrue(etatMarche.length < (5*3));
 		// possible ??
+		
 		village.installerVendeur(abraracourcix, "fleurs", 15);
 		etatMarche = controlAfficherMarche.donnerEtatMarche();
 		assertTrue(etatMarche.length == 3);
